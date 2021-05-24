@@ -1,18 +1,11 @@
-import background from "./background.jpg";
+import { FaHome } from "react-icons/fa";
 
 function Main() {
   return (
-    <div
-      style={{
-        backgroundImage: `url(${background})`,
-        // backgroundPosition: "center",
-        // backgroundSize: "length",
-        // backgroundRepeat: "no-repeat",
-        // width: "100%",
-        // height: "100vh",
-      }}
-    >
-      Hello World
+    <div style={{ fontWeight: "bold", color: "#8b857b" }}>
+      <a href="/" style={{ textDecoration: "none", color: "inherit" }}>
+        <FaHome /> JoyReactor
+      </a>
     </div>
   );
 }
