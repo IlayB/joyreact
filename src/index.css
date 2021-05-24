@@ -1,2 +1,6 @@
 body {
+  background-color: #fecc65;
+  background-image: url("./Main/background.jpg");
+  background-repeat: repeat-x;
+  /* background-size: cover; */
 }
