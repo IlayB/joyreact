@@ -25,20 +25,22 @@ function Content() {
         </a>
       </span>
       <div class="search">
-        <input
-          type="search"
-          id="search"
-          name="search"
-          class="searchInput"
-          placeholder="Поиск"
-        />
-        <button onclick="submit" class="searchIcon">
-          <IconContext.Provider value={{ color: "white" }}>
-            <div>
-              <FaSearch />
-            </div>
-          </IconContext.Provider>
-        </button>
+        <div class="input">
+          <input
+            type="search"
+            id="search"
+            name="search"
+            class="searchInput"
+            placeholder="Поиск"
+          />
+          <button onclick="submit" class="searchIcon">
+            <IconContext.Provider value={{ color: "white" }}>
+              <div>
+                <FaSearch />
+              </div>
+            </IconContext.Provider>
+          </button>
+        </div>
       </div>
     </div>
   );
