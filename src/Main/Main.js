@@ -1,5 +1,6 @@
 import { FaHome } from "react-icons/fa";
 import "./Main.css";
+import eng from "./icon_en.png";
 
 function Main() {
   return (
@@ -21,6 +22,17 @@ function Main() {
           </label>
         </span>
         nsfw
+        <a href="/" class="engLink">
+          <img src={eng} />
+        </a>
+        <span>
+          <a href="/" class="link">
+            Вход
+          </a>
+          <a href="/" class="link">
+            Регистрация
+          </a>
+        </span>
       </div>
     </div>
   );

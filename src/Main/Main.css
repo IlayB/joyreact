@@ -45,3 +45,12 @@
   align-items: center;
   flex-direction: row;
 }
+
+.link {
+  text-decoration: none;
+  color: white;
+  padding-left: 25px;
+}
+.engLink {
+  padding-left: 80px;
+}
