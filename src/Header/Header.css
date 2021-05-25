@@ -3,5 +3,11 @@
   color: white;
   position: absolute;
   left: 92px;
-  top: 115px;
+  top: 50px;
+}
+.logoheader {
+  position: relative;
+  top: 65px;
+  width: 1260px;
+  margin: 0 auto;
 }

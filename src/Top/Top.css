@@ -32,13 +32,15 @@
 }
 
 .header {
+  padding-top: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
   font-weight: bold;
   color: #8b857b;
-  padding-bottom: 30px;
+  width: 1260px;
+  margin: 0 auto;
 }
 
 .contentSwitch {
