@@ -1,8 +1,8 @@
 import { FaHome } from "react-icons/fa";
-import "./Main.css";
+import "./Top.css";
 import eng from "./icon_en.png";
 
-function Main() {
+function Top() {
   return (
     <div class="header">
       <div>
@@ -38,4 +38,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default Top;
