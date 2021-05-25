@@ -2,5 +2,6 @@ body {
   background-color: #fecc65;
   background-image: url("./Main/background.jpg");
   background-repeat: repeat-x;
+  font-family: "Open Sans", Sans-serif;
   /* background-size: cover; */
 }
