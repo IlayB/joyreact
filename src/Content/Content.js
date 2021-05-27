@@ -1,54 +1,12 @@
 import "./Content.css";
-import { FaSearch } from "react-icons/fa";
-import { IconContext } from "react-icons/";
-import ContentTop from "../ContentTop/ContentTop";
+import Posts from "./Posts/Posts.js";
 
 function Content() {
   return (
-    <div>
-      <div class="top">
-        <span>
-          <a href="/" class="headLink">
-            <span class="topText">ЛЕНТА</span>
-          </a>
-          <a href="/" class="headLink">
-            <span class="topText">ОБСУЖДАЕМОЕ</span>
-          </a>
-          <a href="/" class="headLink">
-            <span class="topText">ЛЮДИ</span>
-          </a>
-          <a href="/" class="headLink">
-            <span class="topText">О ПРОЕКТЕ</span>
-          </a>
-        </span>
-        <span>
-          <a href="/" class="headLink">
-            <span class="topTextRandom">СЛУЧАЙНЫЙ ПОСТ {">"}</span>
-          </a>
-        </span>
-        <div class="search">
-          <div class="input">
-            <input
-              type="search"
-              id="search"
-              name="search"
-              class="searchInput"
-              placeholder="Поиск"
-            />
-            <button onclick="submit" class="searchIcon">
-              <IconContext.Provider value={{ color: "white" }}>
-                <div>
-                  <FaSearch />
-                </div>
-              </IconContext.Provider>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div>
-        <ContentTop />
-      </div>
+    <div class="whiteBox">
+      <Posts />
     </div>
   );
 }
+
 export default Content;

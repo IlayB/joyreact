@@ -1,6 +1,6 @@
 import { FaHome } from "react-icons/fa";
 import "./Top.css";
-import eng from "./icon_en.png";
+import eng from "../img/icon_en.png";
 
 function Top() {
   return (

@@ -1,8 +1,6 @@
-import "./ContentTop.css";
-import { FaSearch } from "react-icons/fa";
-import { IconContext } from "react-icons/";
+import "./SubMenu.css";
 
-function ContentTop() {
+function SubMenu() {
   return (
     <div class="submenu">
       <span>
@@ -27,4 +25,4 @@ function ContentTop() {
     </div>
   );
 }
-export default ContentTop;
+export default SubMenu;
