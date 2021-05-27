@@ -37,7 +37,6 @@ function Posts() {
         </div>
         <span class="rating">
           <span class="ratingText">{data.rating}</span>
-
           <IconContext.Provider value={{ color: "green", size: "35px" }}>
             <RiEmotionUnhappyLine />
           </IconContext.Provider>
