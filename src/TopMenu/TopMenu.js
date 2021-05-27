@@ -33,7 +33,7 @@ function TopMenu() {
             class="searchInput"
             placeholder="Поиск"
           />
-          <button onclick="submit" class="searchIcon">
+          <button onClick="submit" class="searchIcon">
             <IconContext.Provider value={{ color: "white" }}>
               <div>
                 <FaSearch />
