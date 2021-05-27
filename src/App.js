@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import Top from "./Top/Top";
 import Header from "./Header/Header";
 import TopMenu from "./TopMenu/TopMenu";

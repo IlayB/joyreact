@@ -1,0 +1,30 @@
+.submenu {
+  content: "";
+  position: relative;
+  top: 105px;
+  width: 1260px;
+  height: 41px;
+  margin: 0 auto;
+  background-color: #fdda97;
+  padding: 8px 40px 0;
+  display: flex;
+  justify-content: space-between;
+
+  .submenuLink {
+    text-decoration: none;
+    padding-inline: 10px;
+
+    .topBarText {
+      color: #454545;
+      font-family: "Open Sans", sans-serif;
+      font-size: 14.9px;
+      line-height: 36px;
+      font-weight: 700;
+      padding: 9px;
+    }
+  }
+
+  .submenuLink:hover {
+    text-decoration: underline black;
+  }
+}

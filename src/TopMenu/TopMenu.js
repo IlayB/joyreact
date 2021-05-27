@@ -1,4 +1,4 @@
-import "./TopMenu.css";
+import "./TopMenu.scss";
 import { FaSearch } from "react-icons/fa";
 import { IconContext } from "react-icons/";
 

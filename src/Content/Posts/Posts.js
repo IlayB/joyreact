@@ -1,4 +1,4 @@
-import "./Posts.css";
+import "./Posts.scss";
 import data from "../articles.json";
 
 import { RiEmotionUnhappyLine, RiEmotionHappyLine } from "react-icons/ri";
@@ -31,11 +31,11 @@ function Posts() {
             &#709; КОММЕНТАРИИ {data.comments}
           </button>
           <span class="time">{data.time}</span>
-          <a href="/" class="nickname">
+          <a href="/" class="linkto">
             ссылка
           </a>
         </div>
-        <span class="rating">
+        <span>
           <span class="ratingText">{data.rating}</span>
           <a href="/">
             <IconContext.Provider

@@ -1,22 +1,18 @@
 import { FaHome } from "react-icons/fa";
-import "./Top.css";
+import "./Top.scss";
 import eng from "../img/icon_en.png";
 
 function Top() {
   return (
     <div class="header">
       <div>
-        <a href="/" style={{ textDecoration: "none", color: "inherit" }}>
+        <a href="/" class="logo">
           <FaHome /> JoyReactor
         </a>
       </div>
-      <div class="contentSwitch">
+      <div class="contentBar">
         sfw
-        <span
-          style={{
-            paddingInline: "15px",
-          }}
-        >
+        <span class="switchBox">
           <label class="switch">
             <input type="checkbox" /> <div></div>
           </label>

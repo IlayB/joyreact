@@ -1,4 +1,4 @@
-import "./SubMenu.css";
+import "./SubMenu.scss";
 
 function SubMenu() {
   return (

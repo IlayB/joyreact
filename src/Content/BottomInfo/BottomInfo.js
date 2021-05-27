@@ -1,4 +1,4 @@
-import "./BottomInfo.css";
+import "./BottomInfo.scss";
 
 function BottomInfo() {
   return (

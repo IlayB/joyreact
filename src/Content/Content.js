@@ -1,4 +1,4 @@
-import "./Content.css";
+import "./Content.scss";
 import Posts from "./Posts/Posts.js";
 import BottomInfo from "./BottomInfo/BottomInfo.js";
 
