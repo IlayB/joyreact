@@ -37,12 +37,20 @@ function Posts() {
         </div>
         <span class="rating">
           <span class="ratingText">{data.rating}</span>
-          <IconContext.Provider value={{ color: "green", size: "35px" }}>
-            <RiEmotionUnhappyLine />
-          </IconContext.Provider>
-          <IconContext.Provider value={{ color: "red", size: "35px" }}>
-            <RiEmotionHappyLine />
-          </IconContext.Provider>
+          <a href="/">
+            <IconContext.Provider
+              value={{ color: "green", size: "35px", className: "upvote" }}
+            >
+              <RiEmotionUnhappyLine />
+            </IconContext.Provider>
+          </a>
+          <a href="/">
+            <IconContext.Provider
+              value={{ color: "red", size: "35px", className: "downvote" }}
+            >
+              <RiEmotionHappyLine />
+            </IconContext.Provider>
+          </a>
         </span>
       </div>
     </div>

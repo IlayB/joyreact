@@ -58,6 +58,11 @@
   background: #fdb201;
   margin-right: 60px;
 }
+.comments:hover {
+  border: 2px solid #ffcc54;
+  background: #ffcc54;
+  cursor: pointer;
+}
 
 .time {
   margin-right: 60px;
@@ -73,4 +78,14 @@
   font-size: 32px;
   margin-right: 5px;
   color: #383838;
+}
+
+.upvote:hover {
+  background: rgb(0, 255, 0);
+  border-radius: 50px;
+}
+
+.downvote:hover {
+  background: rgb(255, 152, 152);
+  border-radius: 50px;
 }
