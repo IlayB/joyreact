@@ -1,10 +1,6 @@
 .post {
   /* background-color: red; */
-  /* width: 1260px;
-  position: relative;
-  top: 105px;
-  /* margin: 0 auto; */
-  /* padding: 8px 40px 0; */
+  width: 863px;
   margin-top: 40px;
 }
 
@@ -30,6 +26,7 @@
 
 .tags {
   margin-top: 20px;
+  width: 863px;
 }
 
 .tag {
@@ -41,4 +38,39 @@
 
 .tag:hover {
   text-decoration: none;
+}
+
+.image {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.comments {
+  font-weight: bold;
+  line-height: 38px !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 24px 0 20px;
+  display: inline-block;
+  position: relative;
+  border: 2px solid #fdb201;
+  border-radius: 21px;
+  background: #fdb201;
+  margin-right: 60px;
+}
+
+.time {
+  margin-right: 60px;
+}
+
+.bottomInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ratingText {
+  font-size: 32px;
+  margin-right: 5px;
+  color: #383838;
 }

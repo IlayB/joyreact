@@ -1,6 +1,9 @@
 import "./Posts.css";
 import data from "../articles.json";
 
+import { RiEmotionUnhappyLine, RiEmotionHappyLine } from "react-icons/ri";
+import { IconContext } from "react-icons/";
+
 function Posts() {
   var tags = data.tags;
 
@@ -12,7 +15,6 @@ function Posts() {
           {data.nickname}
         </a>
       </div>
-
       <div class="tags">
         {Object.values(tags).map(function (tag) {
           return (
@@ -21,6 +23,28 @@ function Posts() {
             </a>
           );
         })}
+      </div>
+      <img src={data.image} class="image" />
+      <div class="bottomInfo">
+        <div>
+          <button onClick="/" class="comments">
+            &#709; КОММЕНТАРИИ {data.comments}
+          </button>
+          <span class="time">{data.time}</span>
+          <a href="/" class="nickname">
+            ссылка
+          </a>
+        </div>
+        <span class="rating">
+          <span class="ratingText">{data.rating}</span>
+
+          <IconContext.Provider value={{ color: "green", size: "35px" }}>
+            <RiEmotionUnhappyLine />
+          </IconContext.Provider>
+          <IconContext.Provider value={{ color: "red", size: "35px" }}>
+            <RiEmotionHappyLine />
+          </IconContext.Provider>
+        </span>
       </div>
     </div>
   );
