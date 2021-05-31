@@ -1,0 +1,39 @@
+{
+    "categories": {
+    "anime":{
+        "name": "Anime",
+        "image": "http://js.joyreactor.cc/images/category/300/anime.jpg",
+        "link":"/"
+    },
+    "ero":{
+        "name": "Эротика",
+        "image": "http://js.joyreactor.cc/images/category/300/erot.jpg",
+        "link":"/"
+    },
+    "games":{
+        "name": "Игры",
+        "image": "http://js.joyreactor.cc/images/category/300/games.jpg",
+        "link":"/"
+    },
+    "anon":{
+        "name": "anon",
+        "image": "http://js.joyreactor.cc/images/category/300/anon.jpg",
+        "link":"/"
+    },
+    "pol":{
+        "name": "политота",
+        "image": "http://js.joyreactor.cc/images/category/politota.png",
+        "link":"/"
+    },
+    "fendom":{
+        "name": "фэндомы",
+        "image": "http://js.joyreactor.cc/images/category/300/fandome.jpg",
+        "link":"/"
+    },
+    "raznoe":{
+        "name": "разное",
+        "image": "http://js.joyreactor.cc/images/category/300/raznoe.jpg",
+        "link":"/"
+    }
+    }
+}

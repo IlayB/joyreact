@@ -5,6 +5,7 @@
   margin-top: 40px;
 
   .sideBarText {
+    margin-top: 30px;
     border-bottom: 3px solid #484848;
     font-size: 20px;
     text-transform: uppercase;
@@ -16,7 +17,6 @@
   .joinButton {
     border: none;
     margin-top: 10px;
-    margin-bottom: 30px;
     font-size: 15px;
     font-weight: bold;
     text-transform: uppercase;
@@ -46,5 +46,9 @@
     position: relative;
     text-align: center;
     color: white;
+  }
+
+  .categImage {
+    width: 300px;
   }
 }

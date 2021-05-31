@@ -1,4 +1,5 @@
 import "./SideBar.scss";
+import prinCateg from "./principalCategories.json";
 import data from "./categories.json";
 
 function SideBar() {
@@ -16,7 +17,20 @@ function SideBar() {
             <div>
               <a href={categ.link} class="categLink">
                 <span class="categNameBox">{categ.name}</span>
-                <img src={categ.image} />
+                <img src={categ.image} class="categImage" />
+              </a>
+            </div>
+          );
+        })}
+      </div>
+      <div>
+        <div class="sideBarText">ОСНОВНЫЕ РАЗДЕЛЫ</div>
+        {Object.values(prinCateg.categories).map(function (prin) {
+          return (
+            <div>
+              <a href={prin.link} class="categLink">
+                <span class="categNameBox">{prin.name}</span>
+                <img src={prin.image} class="categImage" />
               </a>
             </div>
           );
