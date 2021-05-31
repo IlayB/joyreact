@@ -1,0 +1,44 @@
+{
+    "categories": {
+    "comix":{
+        "name": "Комиксы",
+        "image": "http://js.joyreactor.cc/images/category/300/comix.png",
+        "link":"/"
+    },
+    "gif":{
+        "name": "гифки",
+        "image": "http://js.joyreactor.cc/images/category/300/gifki.gif",
+        "link":"/"
+    },
+    "art":{
+        "name": "art",
+        "image": "http://js.joyreactor.cc/images/category/300/art.jpg",
+        "link":"/"
+    },
+    "sandbox":{
+        "name": "песочница",
+        "image": "http://js.joyreactor.cc/images/category/300/sandbox.jpg",
+        "link":"/"
+    },
+    "cat":{
+        "name": "котэ",
+        "image": "http://js.joyreactor.cc/images/category/300/kote.jpg",
+        "link":"/"
+    },
+    "story":{
+        "name": "story",
+        "image": "http://js.joyreactor.cc/images/category/300/story.jpg",
+        "link":"/"
+    },
+    "geek":{
+        "name": "geek",
+        "image": "http://js.joyreactor.cc/images/category/300/geek.jpg",
+        "link":"/"
+    },
+    "video":{
+        "name": "видео",
+        "image": "http://js.joyreactor.cc/images/category/300/video.jpg",
+        "link":"/"
+    }
+    }
+}

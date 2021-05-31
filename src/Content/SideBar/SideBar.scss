@@ -31,4 +31,20 @@
     color: rgb(102, 102, 102);
     cursor: pointer;
   }
+
+  .categNameBox {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    position: absolute;
+    bottom: 30px;
+    left: 200px;
+    font-weight: bold;
+  }
+
+  .categLink {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
 }
