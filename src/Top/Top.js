@@ -22,10 +22,10 @@ function Top() {
           <img src={eng} />
         </a>
         <span>
-          <a href="/" class="link">
+          <a href="/login" class="link">
             Вход
           </a>
-          <a href="/" class="link">
+          <a href="/register" class="link">
             Регистрация
           </a>
         </span>
