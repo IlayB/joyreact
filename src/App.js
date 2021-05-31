@@ -7,7 +7,7 @@ import Content from "./Content/Content";
 import Login from "./Login/Login";
 import Register from "./Register/Register";
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -16,8 +16,8 @@ function App() {
         <Top />
         <Header />
         <TopMenu />
-        <Route path="//" component={SubMenu} />
-        <Route path="//" component={Content} />
+        <Route path="/" exact component={SubMenu} />
+        <Route path="/" exact component={Content} />
         <Route path="/login" component={Login} />
         <Route path="/register" component={Register} />
       </div>
